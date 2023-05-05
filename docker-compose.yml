@@ -3,7 +3,7 @@ version: '3.3'
 services:
   database:
     image: mysql:5.7
-    container_name: mysql
+    container_name: mysql-curso-fullstack
     restart: always
     environment:
       #MYSQL_DATABASE: 'dart'   
